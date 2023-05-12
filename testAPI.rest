@@ -1,0 +1,26 @@
+
+GET http://localhost:4000/projects
+
+###
+GET http://localhost:4000/dashboard
+Content-Type: application/json
+
+{
+    "userId": 4
+}
+
+###
+GET http://localhost:4000/admin
+Content-Type: application/json
+
+{
+    "userId": 3
+}
+
+###
+GET GET http://localhost:4000/projects/1
+Content-Type: application/json
+
+{
+    "userId": 3
+}
